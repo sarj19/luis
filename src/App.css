@@ -1,38 +1,111 @@
 .App {
+  color: white;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.performances,
+.aboutme,
+.logoWrapper,
+.contactWrapper {
+  background-color: #7f00ff;
+}
+
+.logoWrapper {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.centerLogo {
+  width: 50%;
+  margin: -40px 0;
+}
+
+.headerWrapper {
+  padding: 12px;
+}
+
+.luis {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.shrestha {
+  font-size: 40px;
+}
+
+.tagline {
+  margin-top: 8px;
+}
+
+.firstPic {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: -4px;
+}
+
+.performances,
+.aboutme {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 24px 12px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.secondPic {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.content,
+.aboutContent {
+  padding: 4px 12px;
+}
+
+.stageMagicWrapper,
+.aboutContent {
+  background-color: #161419;
+}
+
+.thirdPic {
+  width: 50%;
+  margin: 0 25%;
+}
+
+.profilePic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.aboutContent {
+  margin-bottom: -20px;
+  margin-top: -4px;
+}
+
+.contactWrapper {
+  text-align: left;
+  padding: 0 12px 12px 12px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .tagline {
+    animation: reveal 1 2s ease-in;
+  }
+  img,
+  p,
+  h3 {
+    animation: reveal 1 6s ease-out;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes reveal {
   from {
-    transform: rotate(0deg);
+    filter: opacity(0);
   }
   to {
-    transform: rotate(360deg);
+    filter: opacity(1);
   }
 }
