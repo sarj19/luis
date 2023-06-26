@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/luisshrestha.com/static/css/main.e01d2e2e.css",
-    "main.js": "/luisshrestha.com/static/js/main.20bd3b80.js",
-    "static/js/787.6090665c.chunk.js": "/luisshrestha.com/static/js/787.6090665c.chunk.js",
-    "static/media/closeup2.jpg": "/luisshrestha.com/static/media/closeup2.6323e71e39fb06ae7a4c.jpg",
-    "static/media/profile.png": "/luisshrestha.com/static/media/profile.5f93a27911e2ef02a76f.png",
-    "static/media/closeup.jpg": "/luisshrestha.com/static/media/closeup.5588bfd54fcd1dd2b453.jpg",
-    "static/media/stage.jpg": "/luisshrestha.com/static/media/stage.415eddaad6fa23a306ed.jpg",
-    "static/media/logo384.png": "/luisshrestha.com/static/media/logo384.f4a5fb06bd15166a55d3.png",
-    "index.html": "/luisshrestha.com/index.html",
-    "main.e01d2e2e.css.map": "/luisshrestha.com/static/css/main.e01d2e2e.css.map",
-    "main.20bd3b80.js.map": "/luisshrestha.com/static/js/main.20bd3b80.js.map",
-    "787.6090665c.chunk.js.map": "/luisshrestha.com/static/js/787.6090665c.chunk.js.map"
+    "main.css": "/static/css/main.e01d2e2e.css",
+    "main.js": "/static/js/main.12f9fb65.js",
+    "static/js/787.6090665c.chunk.js": "/static/js/787.6090665c.chunk.js",
+    "static/media/closeup2.jpg": "/static/media/closeup2.6323e71e39fb06ae7a4c.jpg",
+    "static/media/profile.png": "/static/media/profile.5f93a27911e2ef02a76f.png",
+    "static/media/closeup.jpg": "/static/media/closeup.5588bfd54fcd1dd2b453.jpg",
+    "static/media/stage.jpg": "/static/media/stage.415eddaad6fa23a306ed.jpg",
+    "static/media/logo384.png": "/static/media/logo384.f4a5fb06bd15166a55d3.png",
+    "index.html": "/index.html",
+    "main.e01d2e2e.css.map": "/static/css/main.e01d2e2e.css.map",
+    "main.12f9fb65.js.map": "/static/js/main.12f9fb65.js.map",
+    "787.6090665c.chunk.js.map": "/static/js/787.6090665c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e01d2e2e.css",
-    "static/js/main.20bd3b80.js"
+    "static/js/main.12f9fb65.js"
   ]
 }
